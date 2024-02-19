@@ -1,0 +1,28 @@
+.c-navbar {
+    height: auto !important;
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+    color: black !important;
+}
+
+.navbar-logo {
+    max-height: 40px; 
+    width: auto; 
+}
+
+.navbar-collapse form button {
+    border-radius: 50px !important;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.availability {
+    text-align: left; 
+    margin-top: 10px;
+    padding-left: 0px; /* This line overrides the previous padding setting */
+    padding-bottom: 20px; /* Add padding to the bottom */
+}
