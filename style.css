@@ -1,28 +1,57 @@
+body {
+    overflow-x: hidden !
+}
+
+/* Navbar adjustments */
 .c-navbar {
     height: auto !important;
     border-bottom: 1px solid black;
 }
 
-.navbar-brand {
+.c-navbar .navbar-brand {
     color: black !important;
 }
 
-.navbar-logo {
-    max-height: 40px; 
-    width: auto; 
+.c-navbar .navbar-logo {
+    max-height: 40px;
+    width: auto;
 }
 
-.navbar-collapse form button {
+.c-navbar .navbar-collapse form button {
     border-radius: 50px !important;
     background-color: red;
     color: white;
     font-weight: 500;
     padding: 10px 20px;
+    border: none;
 }
 
-.availability {
-    text-align: left; 
-    margin-top: 10px;
-    padding-left: 0px; /* This line overrides the previous padding setting */
-    padding-bottom: 20px; /* Add padding to the bottom */
+/* Hero section adjustments */
+.hero {
+    background-color: #f8f9fa; /* Add background color */
+    padding: 50px 0; /* Add padding */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Increase font size */
+    margin-bottom: 20px; /* Add margin bottom */
+}
+
+.hero .button-div {
+    margin-top: 20px; /* Add margin top */
+}
+
+.hero .button-div button {
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border: none;
+    margin-right: 10px; /* Add margin between buttons */
+}
+
+.content{
+    margin-top: 30px;
 }
